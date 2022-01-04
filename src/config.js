@@ -26,13 +26,21 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 5,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "1st";
+        image.style.width = '50%';
+        image.style.height = 'auto';
+        image.style.top=-25;
+      },
+      { name: "2nd";
+        image.style.width = '25%';
+        image.style.height = 'auto';
+        image.style.top=-50;
+      },
+      { name: "3rd";
+        image.style.width = '12.5%';
+        image.style.height = 'auto';
+        image.style.top=-100;
+      },
     ],
   },
 ];
